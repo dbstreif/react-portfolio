@@ -1,0 +1,11 @@
+.navbar {
+    text-align: left;
+}
+
+.navbar>a {
+    padding-right: 20px;
+}
+
+.navbar>a:hover {
+    color: #42a4f5;
+}
