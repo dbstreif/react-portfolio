@@ -1,5 +1,9 @@
 .navbar {
+    position: absolute;
+    left: 0;
+    top: 0;
     text-align: left;
+    padding: 2rem;
 }
 
 .navbar>a {
