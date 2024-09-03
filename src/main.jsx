@@ -4,23 +4,23 @@ import App from './App.jsx'
 import Projects from './Projects.jsx'
 import Resume from './Resume.jsx'
 import './index.css'
-import { createBrowserRouter, RouterProvider, Navigate } from 'react-router-dom'
+import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 
 const router = createBrowserRouter([
     {
-        path: "/",
+        path: "/react-portfolio/",
         element: <App/>,
     },
     {
-        path: "/projects",
+        path: "/react-portfolio/projects",
         element: <Projects/>,
     },
     {
-        path: "/resume",
+        path: "/react-portfolio/resume",
         element: <Resume/>,
     },
     {
-        path: "*",
+        path: "/react-portfolio/*",
         element: <App/>
     },
 ])
