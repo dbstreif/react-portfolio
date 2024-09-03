@@ -7,7 +7,7 @@ function Projects() {
         <>
         <Navbar/>
 
-        <h1> Hello World </h1>
+        <h1> Page Under Construction! </h1>
 
         <Footer/>
         </>
