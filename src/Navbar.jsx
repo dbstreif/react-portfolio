@@ -13,6 +13,9 @@ function Navbar () {
             <Link className="resume" to="/react-portfolio/resume">
                 Resume
             </Link>
+            <Link className="articles" to="/react-portfolio/articles">
+                Articles
+            </Link>
         </nav>
     )
 }
