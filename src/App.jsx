@@ -20,15 +20,19 @@ function App() {
 
             <div id="intro-box">
 
-                    <p>
-                        Hey there! I'm Dominic Streif, a dedicated software
-                        developer studying computer science at California
-                        Polytechnic State University in San Luis Obispo. I love
-                        learning and exploring new things within my field and am
-                        always ready to integrate whatever knowledge I have. Take a
-                        stroll through my website. I'm continuously expanding my
-                        projects portfolio, and you'll often find me diving into
-                        something new. 
+                    <p> 
+                        My name is Dominic Streif, and I am a current student
+                        at California Polytechnic State University actively
+                        pursuing a B.S. in Computer Science with a
+                        concentration in cybersecurity.
+
+                        I have a strong passion for designing software that is
+                        robust, scalable, and used for the common good of
+                        society. I believe that with my eagerness to learn and
+                        strong curiosity as a software developer, I can
+                        contribute to the advancement of technology today, and
+                        discover new, inventive solutions in this ever evolving
+                        field.
                     </p>
             </div>
 
