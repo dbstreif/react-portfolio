@@ -1,0 +1,4 @@
+/* Make sure each slide is a block-level element */
+.slick-slide {
+  display: block;
+}

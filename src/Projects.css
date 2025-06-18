@@ -1,0 +1,18 @@
+.repo-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.slick-dots li button {
+  background-color: #ccc;  /* Inactive dots color */
+  border-radius: 100%;
+  width: 12px;
+  height: 12px;
+  opacity: 1;
+}
+
+.slick-dots li.slick-active button {
+  background-color: #646cff;  /* Active dot color */
+}
+
