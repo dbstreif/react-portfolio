@@ -9,21 +9,34 @@ function Resume() {
             <Navbar/>
 
             <div id="parent">
-
-                <object className="pdf" data="https://docs.google.com/document/d/1PolR2TZ2WTlrCwjUfIAfNxmgGSQdx-FnxpmOL051P9k/preview?format=pdf">
-                    <p>
-                        No PDF Viewer available, view in
-                        <Link reloadDocument style={{"padding-left": "6px"}} to="https://docs.google.com/document/d/1PolR2TZ2WTlrCwjUfIAfNxmgGSQdx-FnxpmOL051P9k/view?usp=sharing">
-                            docs
-                        </Link>
-                    </p>
-                </object>
-                <p style={{"padding-top": "30px", "font-size": "18px"}}>
-                    <Link reloadDocument style={{"padding-left": "6px"}} to="https://docs.google.com/document/d/1PolR2TZ2WTlrCwjUfIAfNxmgGSQdx-FnxpmOL051P9k/export?format=pdf" >
-                        Download
+                <object
+                  className="pdf"
+                  data="https://drive.google.com/file/d/1YqKm9fSLr0cpCSHCm3Fyu0_g-EwomnbL/preview"
+                  type="application/pdf"
+                  width="100%"
+                  height="800px"
+                >
+                  <p>
+                    No PDF Viewer available, please 
+                    <Link
+                      reloadDocument
+                      style={{ paddingLeft: "6px" }}
+                      to="https://drive.google.com/uc?export=download&id=1YqKm9fSLr0cpCSHCm3Fyu0_g-EwomnbL"
+                    >
+                        download
                     </Link>
-                </p>
+                  </p>
+                </object>
 
+                <p style={{ paddingTop: "30px", fontSize: "18px" }}>
+                  <Link
+                    reloadDocument
+                    style={{ paddingLeft: "6px" }}
+                    to="https://drive.google.com/uc?export=download&id=1YqKm9fSLr0cpCSHCm3Fyu0_g-EwomnbL"
+                  >
+                    Download
+                  </Link>
+                </p>
             </div>
 
             <Footer/>
